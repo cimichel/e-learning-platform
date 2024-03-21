@@ -14,6 +14,9 @@ created: date/time are set by Django configuration when creating new objects usi
 
 Each course is divided into several modules. The Module model contains a foreign key field that points to 
 the Course model.
+
+python manage.py dumpdata courses --indent=2 -- command for the fixture to dump data automatically,
+not needing to make use of manual upload.
 """
 
 
