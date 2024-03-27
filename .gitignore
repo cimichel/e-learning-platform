@@ -3,6 +3,7 @@
 *.pot
 
 *.pyc
+*.xml
 
 */*/*/__pycache__/
 
